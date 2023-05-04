@@ -13,6 +13,5 @@ In order to run this repo on your local machine follow these steps:
 - `pip install -r requirements.txt`
 
 - Get a api key from https://openai.com/product
-- Run the code: `OPENAI_API_KEY="[your api key]" python3 main.py`
-
-Everytime you run the python code, you must include the api as env variable. I recommend you to create a .env file where you can store it and pick it up when needed.
+- Add that api key in your .env file. You can see .env.example file to see how the environment variable is called
+- Run the code: `python3 main.py`
