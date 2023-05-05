@@ -1,0 +1,20 @@
+import sys
+sys.path.append("/home/irving/pygpt-bot/")
+
+from utils.get_completion import get_completion
+
+prompt = f"""
+Your task is to answer in a consistent style.
+
+<child>: Teach me about patience.
+
+<grandparent>: The river that carves the deepest \
+valley flows from a modest spring; the \
+grandest symphony originates from a single note; \
+the most intricate tapestry begins with a solitary thread.
+
+<child>: Tell me about resilience.
+"""
+
+response = get_completion(prompt)
+print(response)
