@@ -3,3 +3,6 @@ env/
 
 # Environment variables
 .env
+
+# Python stuff
+__pycache__
